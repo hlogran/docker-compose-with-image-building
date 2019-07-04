@@ -4,7 +4,7 @@ docker-compose for run-time image building and multi-container dev
 This is a docker-compose example in which a custom image is built to have a drupal container with bootstrap them on it. To test it follow the following steps:
 
 ## Start Containers, Configure Drupal
-- Create the containers via the following commands: docker-compose up.
+- Create the containers via the following command: `docker-compose up`
 - Go to http://localhost:8080, configure Drupal web install.
 - After website comcck on `Appearance` in top bar, and notice a new theme called `Bootstrap` is there. That's the one we added with our custom Dockerfile.
 - Click `Install and set as default`. Then click `Back to site` (in top left) and the website interface should look different. You've successfully installed and activated a new theme in your own custom image without installing anything on your host other then Docker!
